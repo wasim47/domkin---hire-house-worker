@@ -1,0 +1,512 @@
+a, a:hover, .btn, .btn:hover, a:focus{
+    text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;;
+    transition-duration: .2s;;
+    outline: none;
+}
+/* topBar */
+/* ------------------------------------------------------ */
+.topBar{
+    background-color: #37474f;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+.topBar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.topBar ul.brands li a{
+    padding: 10px 10px;
+    font-size: 11px;
+    color: #bdbdbd;
+    margin: 0px 5px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Montserrat',sans-serif;
+        text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;;
+    transition-duration: .2s;;
+    outline: none;
+}
+.topBar ul.icons li{
+    padding: 3px 0px 0px 0px;
+}
+.topBar ul.icons li a{
+    color: #bdbdbd;
+    text-decoration: none;
+}
+.topBar ul.icons li a i{
+    padding: 13px 10px 11px 10px;
+    line-height: 14px;
+}
+.topBar ul li a i.icon-facebook:hover{
+    background-color: #3b5999;
+    color: #fff;
+        text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;;
+    transition-duration: .2s;;
+    outline: none;
+}
+.topBar ul li a i.icon-google-plus:hover{
+    background-color: #DC4E41;
+    color: #fff;
+        text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;;
+    transition-duration: .2s;;
+    outline: none;
+}
+.topBar ul li a i.icon-youtube:hover{
+    background-color: #e52d27;
+    color: #fff;
+        text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;;
+    transition-duration: .2s;;
+    outline: none;
+}
+.topBar ul li a i.icon-phone:hover{
+    background-color: #09b83e;
+    color: #fff;
+        text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;;
+    transition-duration: .2s;;
+    outline: none;
+}
+.topBar ul li a i.icon-envelope:hover{
+    background-color: #131418;
+    color: #fff;
+}
+.topBar ul li a:first-child{
+    margin-left: 0;
+}
+.topBar ul li a.jobs.active{
+    background-color: #2F64A3;
+    color: #fff;
+    font-weight: bold;
+}
+.topBar ul li a.mybdjobs:hover{
+    background-color: #68aa47;
+    color: #fff;
+}
+.topBar ul li a.training:hover{
+    background-color: #ac016d;
+    color: #fff;
+}
+.topBar ul li a.corporate:hover{
+    background-color: #0b5f8a;
+    color: #fff;
+}
+.topBar-right{
+    padding: 7px 0px 0px 0px;
+}
+.lang-btn .btn{
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    box-shadow: none;
+    background-color: #37474F;
+    color: #ffffff;
+}
+.lang-btn .btn:hover{
+    background-color: #263238;
+}
+.lang-btn .btn.active{
+    background-color: #fff;
+    color: #263238;
+}
+.lang-btn .bn{
+    padding: 3px 6px 2px;
+    background-color: #37474F;
+}
+.lang-btn .btn + .btn{
+    margin-left: 0px;
+}
+.lang-btn.btn-group{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin-left: 1px;
+}
+/*.lang-btn .btn.active{
+    background-color: #263238;
+    color: #fff;
+    border: 2px solid #fff;
+}*/
+.icons{
+    margin-right: 20px;
+}
+.topBar ul.icons a i{
+    font-size: 14px;
+    line-height: 10px;
+}
+/* Goto Top */
+/* ------------------------------------------------------ */
+#toTop,#toTop:focus{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    font-family: 'FontAwesome' !important;
+    background-color: rgba(55,71,79,0.6);
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    height: 36px;
+    width: 36px;
+    padding: 2px 0px 0px 0px;
+    font-size: 18px;
+}
+#toTop:hover{
+    background-color: #2f64a3;
+    border: 2px solid #ffffff;
+}
+
+/* Login form */
+/* ------------------------------------------------------ */
+.login-form{
+    width: 360px;
+    position: absolute;
+    background-color: #ffffff;
+    right: 30px;
+    border-top: 2px solid #2f64a3;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.35);
+    border-radius: 0px 0px 4px 4px;
+    z-index: 2;
+    display: none;
+}
+.login-jobseeker{
+    background-image: url(../images/job-seeker-bg.jpg);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    padding: 0px 25px 15px 25px;
+    background-size: contain;
+}
+.login-corporate{
+    display: none;
+    background-image: url(../images/corporate-bg.jpg);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 0px 25px 15px 25px;
+    background-size: contain;
+}
+.login-form .tab .btn.active{
+    background-color: #ffffff;
+    border: 1px solid #2f64a3;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 4px 4px 0px 0px;
+    color: #2f64a3;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
+    box-shadow: none;
+}
+.login-form .tab .btn-group{
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    padding: 25px 25px 0px 25px;
+}
+.login-form .tab .btn{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom: 1px solid #2F64A3;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius: 4px 4px 0px 0px;
+    color: #bdbdbd;
+    margin: 0px 0px 15px 0px;
+    box-shadow: none;
+    width: 50%;
+    padding: 8px 0px;
+    outline: none;
+    font-family: 'Montserrat',sans-serif;
+}
+.login-form .checkbox{
+    margin: 20px 0px 8px 0px;
+}
+.login-form .tab .btn:hover{
+    color: #2F64A3;
+}
+.login-form .tab .btn-group .btn:first-child{
+    border-radius: 4px 4px 0px 0px;
+}
+.login-form label{
+    font-weight: normal;
+}
+.login-form input.form-control{
+    padding-left: 25px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.login-form input.u-name{
+    margin: 0px 0px 15px 0px;
+}
+.login-form input:focus{
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #2F64A3;
+}
+.login-form .btn-login{
+    padding: 8px 25px;
+    margin: 10px 0px 5px 0px;
+    width: 100%;
+    border: 1px solid #43A047;
+}
+.login-form .inner-addon i{
+    margin-left: 0px;
+    color: #a6a6a6;
+}
+.for-pass{
+    color: #212121;
+    text-align: center;
+    display: block;
+    margin: 8px 0px 12px 0px;
+    font-size: 15px;
+}
+.login-form .btn-create{
+    float: right;
+    background-color: #ffffff;
+    color: #43A047;
+    border: 1px solid #43A047;
+    margin: 6px 0px 0px 0px;
+}
+.login-form .btn-create:hover{
+    background-color: #43A047;
+    border: 1px solid #43A047;
+    color: #ffffff;
+}
+.login-form .new-account p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #424242;
+    width: 160px;
+    padding: 12px 0px 0px 0px;
+    float: left;
+}
+
+/* Footer section*/
+/* ------------------------------------------------------ */
+.fatFooter{
+    padding: 40px 0px;
+    color: #ffffff;
+    background-color: #263238;
+}
+.fatFooter ul{
+    margin: 0px;
+    padding: 0px;
+}
+.fatFooter h4{
+    font-size: 18px;
+    margin: 0px 0px 15px 0px;
+}
+.fatFooter p{
+    color: #92989b;
+    font-family: 'SolaimanLipi';
+}
+.fatFooter ul li{
+    list-style: none;
+}
+.fatFooter ul li a{
+    font-size: 14px;
+    color: #92989b;
+    padding-bottom: 6px;
+    /*font-family: 'SolaimanLipi';*/
+    display: block;
+}
+.fatFooter ul li ul li a{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.fatFooter ul li ul li strong{
+    font-size: 12px;
+    color: #92989b;
+    font-weight: normal;
+}
+.fatFooter ul li a:hover{
+    color: #ffffff;
+}
+.footer-logo{
+    margin: 0px 0px 15px 0px;
+    width: 140px;
+}
+.btn-f-more{
+    padding: 5px 10px;
+    background-color: #43A047;
+    color: #ffffff;
+    font-size: 12px;
+}
+.in-partners{
+    cursor: pointer;
+}
+.in-partners i{
+    cursor: pointer;
+    padding-top: 5px;
+}
+.all-partners{
+    display: none;
+}
+.fatFooter ul.all-partners li:before{
+    content: '\e945';
+    margin-left: 10px;
+    font-size: 12px;
+    color: #92989b;
+    font-family: ui-icon;
+}
+
+/*Light version message*/
+.infoMobile{
+    background-color: #37474f;
+    padding: 5px;
+}
+.infoMobile a{
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+}
+
+
+
+/*Welcome message*/
+.welcomeMessage{
+    background: -webkit-linear-gradient(bottom right, #0074B3, rgba(199, 10, 153, 0.9));/* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0074B3, rgba(199, 10, 153, 0.9));/* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0074B3, rgba(199, 10, 153, 0.9));/* For Firefox 3.6 to 15 */
+    background: linear-gradient(bottom right, #0074B3, rgba(199, 10, 153, 0.9));
+    color: #ffffff;
+    padding: 10px 0px;
+	background-color: #c70a99;
+}
+.welcomeMessage h6{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    float: left;
+    line-height: 18px;
+}
+.welcomeMessage .btn-feedback{
+    background-color: #ffffff;
+    color: #b32d7d;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    padding: 5px 20px;
+    float: left;
+    margin-right: 20px;
+}
+.welcomeMessage .btn-feedback:hover{
+    background-color: #165273;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.welcomeMessage .btn.close{
+    float: right;
+    background-color: transparent;
+    text-shadow: none;
+    color: #ffffff;
+    border: none;
+    opacity: .6;
+    padding: 0;
+}
+.welcomeMessage .btn.close:hover{
+    color: #ffffff;
+    opacity: 1;
+}
+.dots{background:#f5f5f5;position:absolute;padding-left:1px;right:0px;bottom:0px;}
+
+.welcomeMessage a.feedback{
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.createAccount .modal-content{
+	border-radius: 2px;
+	padding: 0px 0px 40px 0px;
+	border: none;
+	background-image: url(../images/ca_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+}
+.createAccount .modal-header{
+	border: none;
+}
+.createAccount .modal-header h4{
+	font-size: 24px;
+	color: #212121;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 15px 0px 15px;
+}
+.createAccount .modal-header p{
+	font-size: 14px;
+	line-height: 18px;
+	color: #616161;
+}
+.createAccount .modal-body{
+	padding: 0px 50px;
+}
+.createAccount .modal-dialog{
+	margin-top: 180px;
+}
+.job-seekers, .for-employers{
+	background-color: #68aa47;
+	color: #ffffff;
+	padding: 40px;
+	border-radius: 2px 0px 0px 2px;
+	min-height: 280px;
+	padding: 40px 20px;
+}
+.for-employers{
+	background-color: #0b5f8a;
+	border-radius: 0px 2px 2px 0px;
+}
+.job-seekers h5, .for-employers h5{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 15px 0px 10px 0px;
+}
+.job-seekers p, .for-employers p{
+	font-size: 14px;
+	color: #ffffff;
+	opacity: .8;
+}
+.job-seekers .btn, .for-employers .btn{
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	text-transform: uppercase;
+	color: #68aa47;
+	font-weight: 700;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 20px;
+	margin: 10px 0px 0px 0px;
+}
+.job-seekers .btn:hover{
+	background-color: #68aa47;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.for-employers .btn:hover{
+	background-color: #0b5f8a;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.for-employers .btn{
+	color: #0b5f8a;
+}
+.createAccount .modal-body .col-md-6{
+	padding: 0px;
+}
